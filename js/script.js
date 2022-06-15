@@ -6,6 +6,14 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.header__burger').click(function(event) {
-        $('.btn__info').toggleClass('disabled');
+        $('.btn-info').toggleClass('disabled');
     })
+})
+
+window.addEventListener('scroll' , e => {
+    let navbar = document.getElementById('header').classList
+    let active_class = "navbar_scrolled"
+
+    if(scrollY > 150) navbar.add(active_class)
+    else navbar.remove(active_class)
 })
