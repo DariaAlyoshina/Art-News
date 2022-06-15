@@ -276,6 +276,10 @@ li {
   color: #fff;
 }
 
+.btn-info{
+  margin-bottom: 320px;
+}
+
 .btn-link, .btn__info__link {
   color: #fff;
   font-family: 'Inter',  sans-serif;
@@ -333,7 +337,6 @@ li {
 
 .posts__layout {
   display: flex;
-  padding: 0px 72px 0px 72px;
   display: -webkit-box;
   display: -ms-flexbox;
   -ms-flex-wrap: nowrap;
